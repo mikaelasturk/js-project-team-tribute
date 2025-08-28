@@ -1,0 +1,111 @@
+body {
+  width: 700px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "montserrat";
+  background-color: #d3f9d8;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 50px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+h3 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.box {
+  display: flex;
+  gap: 40px;
+  background-color: gray;
+  margin: 60px 0;
+  padding: 40px;
+  justify-content: space-between;
+  border-radius: 20px;
+
+}
+
+.button {
+  display: block;
+  background-color: cornflowerblue;
+  width: 100%;
+  padding: 15px 0 15px 0;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: 1s;
+}
+
+p {
+  font-size: 18px;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+img {
+  display: flex;
+  align-items: flex-end;
+}
+
+.button-bottom {
+  margin-top: auto;
+}
+
+.box-carolina {
+  background-color: lightpink;
+  box-shadow: 10px 10px 10px rgba(240, 199, 205, 0.60);
+}
+
+.button-carolina {
+  background-color: palevioletred;
+  color: white;
+}
+
+.button-carolina:hover {
+  background-color: rgb(207, 83, 124);
+}
+
+.box-mikaela {
+  margin-top: 130px;
+  background-color: #b197fc;
+  box-shadow: 10px 10px 10px rgba(219, 199, 240, 0.6);
+}
+
+.button-mikaela {
+  background-color: #845ef7;
+  color: white;
+}
+
+.button-mikaela:hover {
+  background-color: #7048e8;
+}
+
+.box-kausyar {
+  background-color: #ffc53f;
+  box-shadow: 10px 10px 10px rgba(240, 230, 199, 0.6);
+}
+
+.button-kausyar {
+  background-color: #f08c00;
+  color: white;
+}
+
+.button-kausyar:hover {
+  background-color: #e67700;
+}
